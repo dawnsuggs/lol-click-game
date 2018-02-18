@@ -53,7 +53,7 @@ this.state = {cards: [{url: "Miss Baby Glitter.jpg",
 }
 
 shuffle = () => {
-  //put the shuffling node package from erin in here
+  //put the shuffling node package in here//
   console.log("before " + this.state.cards);
   shuffle(this.state.cards);
   console.log("after " + this.state.cards);
